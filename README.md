@@ -18,3 +18,14 @@ or simply execute:
 
 This will place the build artifacts in `llvm/build`. You do not need to install them.
 `nwcc` (CAvA) will find them in their build locations.
+
+# How to generate minimal binary
+
+Install docker and run this script to build LLVM in a container:
+
+```
+./scripts/build_release.sh
+```
+
+Then the tarball will be copied to `${PWD}/artifacts`. To use the binary for AvA,
+simply unpack the tarball in `${AVA_ROOT}/llvm`.
