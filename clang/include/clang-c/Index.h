@@ -3907,7 +3907,7 @@ enum CX_BinaryOperatorKind {
   CX_BO_AddAssign = 25,
   CX_BO_SubAssign = 26,
   CX_BO_ShlAssign = 27,
-  CX_BO_ShrAssign = 29,
+  CX_BO_ShrAssign = 28,
   CX_BO_AndAssign = 29,
   CX_BO_XorAssign = 30,
   CX_BO_OrAssign = 31,
